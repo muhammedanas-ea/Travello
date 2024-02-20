@@ -1,0 +1,12 @@
+.propertyName{
+    font-family: sans-serif !important;
+    font-size: 20px !important;
+    font-weight: 500 !important;
+    letter-spacing: 2.25px !important;
+    line-height: 19px !important;
+    width: 100%;
+    text-transform: uppercase;
+}
+.main-sectioon{
+    gap: 30px !important;
+}

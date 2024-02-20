@@ -1,0 +1,3 @@
+.newClass::-webkit-scrollbar {
+    display: none !important;
+  }

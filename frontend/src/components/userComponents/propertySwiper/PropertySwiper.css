@@ -1,0 +1,25 @@
+.card-sahdow{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px !important;
+}
+.contai-section{
+    margin: 0 7%;
+}
+.main-sparation{
+    margin: 100px auto 40px;
+}
+
+.font-fmaily{
+    font-family: sans-serif !important;
+    font-size: 20px !important;
+    font-weight: 500 !important;
+    letter-spacing: 2.25px !important;
+    line-height: 19px !important;
+    width: 100%;
+    text-transform: uppercase;
+}
+.propertyScroll::-webkit-scrollbar{
+    display: none;
+}
+.propertyScroll{
+    scroll-behavior: smooth;
+}

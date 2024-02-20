@@ -1,0 +1,54 @@
+.card-sahdow {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px !important;
+}
+.contai-section {
+  margin: 0 7%;
+}
+.main-sparation {
+  margin: 100px auto 40px;
+}
+
+.font-fmaily {
+  font-family: sans-serif !important;
+  font-size: 20px !important;
+  font-weight: 500 !important;
+  letter-spacing: 2.25px !important;
+  line-height: 19px !important;
+  width: 100%;
+  text-transform: uppercase;
+}
+.scroll::-webkit-scrollbar {
+  display: none;
+}
+.scroll {
+  scroll-behavior: smooth;
+}
+.card:hover {
+  cursor: pointer;
+}
+
+.cardText {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.card {
+  border-image: fill 0 linear-gradient(rgba(0, 0, 0, 0.322), #0000006b);
+}
+
+.cardText:hover {
+  background: transparent;
+  backdrop-filter: blur(3px);
+  opacity: 1;
+  animation: cardText 0.5s ease-in-out 1 forwards;
+}
+@keyframes cardText {
+  0% {
+    transform: translateY(20%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
